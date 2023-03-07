@@ -1,1 +1,71 @@
+<!DOCTYPE html>
 
+<html lang="fi">
+
+<head>
+
+    <title>Yritystietohaku</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="testcss.css">
+
+</head>
+
+
+<body>
+
+<div class="header">
+
+    <h1>Yritystietohaku</h1>
+
+</div>
+
+<div class="hakuvalikot">
+
+<form action="/action_page.php">
+    <label for="paikkakunta"></label>
+    <select name="paikkakunta" id="paikkakunta">
+        <option selected disabled hidden>Valitse paikkakunta</option>
+        <option value="Lahti">Lahti</option>
+        <option value="Oulu">Oulu</option>
+        <option value="Helsinki">Helsinki</option>
+        <option value="Tampere">Tampere</option>
+        
+    </select>
+  
+
+  &nbsp;&nbsp;&nbsp;
+
+  
+    <label for="toimiala" ></label>
+    <select name="toimiala" id="toimiala">
+        <option selected disabled hidden>Valitse toimiala</option>
+        <option value="Majoitus">Majoitus</option>
+        <option value="Kiinteistöala">Kiinteistöala</option>
+        <option value="Terveys- ja sosiaalipalvelut">Terveys- ja sosiaalipalvelut</option>
+        <option value="Kuljetus ja varastointi">Kuljetus ja varastointi</option>
+    </select>
+  
+
+  &nbsp;&nbsp;&nbsp;
+
+  
+  <label for="ytunnus"> </label>
+    <input type="text" id="ytunnus" name="ytunnus" placeholder="Y-tunnus">
+
+    <div class="center">
+
+    <input type="submit" value="Submit">
+
+    </div>
+
+</div>
+
+
+
+    
+
+
+</body>
+
+</html>
